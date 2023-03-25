@@ -1,0 +1,1339 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "fullName": "Vision Filler",
+        "email": "visionfiller@gmail.com",
+        "profilePicture": "http://localhost:3000/images/vision.jpeg",
+        "password": "ilovewine",
+        "isStaff": true
+      },
+      {
+        "id": 2,
+        "fullName": "Wesley Hughes",
+        "email": "wesley_hughes@me.com",
+        "password": "ilovewine",
+        "profilePicture": "https://ih0.redbubble.net/image.488898129.4072/flat,1000x1000,075,f.u3.jpg",
+        "isStaff": false
+      },
+      {
+        "id": 3,
+        "fullName": "Poppy Hughes Filler",
+        "email": "poppy@gmail.com",
+        "password": "ilovewine",
+        "profilePicture": "http://localhost:3000/images/poppy.jpeg",
+        "isStaff": false
+      },
+      {
+        "id": 4,
+        "fullName": "Jackson Henderson",
+        "email": "jackson@gmail.com",
+        "password": "ilovewine",
+        "profilePicture": "https://th.bing.com/th/id/OIP.oppdGjUdeoTBR6UaXi7fcgHaJ4?pid=ImgDet&rs=1",
+        "isStaff": false
+      },
+      {
+        "id": 5,
+        "fullName": "Hannah Collins",
+        "email": "hannah@gmail.com",
+        "password": "ilovewine",
+        "profilePicture": "http://localhost:3000/images/ada.jpg",
+        "isStaff": false
+      },
+      {
+        "id": 6,
+        "fullName": "Liz Clement",
+        "email": "liz@gmail.com",
+        "password": "ilovewine",
+        "profilePicture": "http://localhost:3000/images/cash.jpg",
+        "isStaff": false
+      },
+      {
+        "isStaff": false,
+        "fullName": "Emily Dooling",
+        "email": "emily@gmail.com",
+        "password": "ilovewine",
+        "profilePicture": "http://localhost:3000/images/karl.jpeg",
+        "id": 8
+      },
+      {
+        "isStaff": false,
+        "fullName": "Phi Filler",
+        "email": "phi@gmail.com",
+        "profilePicture": "http://localhost:3000/images/poppymain.jpeg",
+        "password": "ilovewine",
+        "id": 9
+      }
+    ],
+    "wineTypes": [
+      {
+        "id": 1,
+        "type": "red"
+      },
+      {
+        "id": 2,
+        "type": "white"
+      },
+      {
+        "id": 3,
+        "type": "rose"
+      },
+      {
+        "id": 5,
+        "type": "sparkling"
+      }
+    ],
+    "bodies": [
+      {
+        "id": 1,
+        "density": "full"
+      },
+      {
+        "id": 2,
+        "density": "medium-full"
+      },
+      {
+        "id": 3,
+        "density": "medium"
+      },
+      {
+        "id": 4,
+        "density": "medium-light"
+      },
+      {
+        "id": 5,
+        "density": "light"
+      },
+      {
+        "id": 6,
+        "density": "very-light"
+      }
+    ],
+    "flavors": [
+      {
+        "id": 1,
+        "notes": "strawberries, cherries"
+      }
+    ],
+    "drynesses": [
+      {
+        "id": 1,
+        "level": "dryest",
+        "tastesLike": "bold, savory finish"
+      },
+      {
+        "id": 2,
+        "level": "dryer",
+        "tastesLike": "vegetables and herbs"
+      },
+      {
+        "id": 3,
+        "level": "dry",
+        "tastesLike": "tart fruits and flowers"
+      },
+      {
+        "id": 4,
+        "level": "off-dry",
+        "tastesLike": "ripe fruits and spices"
+      },
+      {
+        "id": 5,
+        "level": "semi-sweet",
+        "tastesLike": "candied fruit and flowers"
+      },
+      {
+        "id": 6,
+        "level": "sweet",
+        "tastesLike": "fruit jam and chocolate"
+      },
+      {
+        "id": 7,
+        "level": "very sweet",
+        "tastesLike": "figs, raisins, and dates"
+      }
+    ],
+    "acidities": [
+      {
+        "id": 1,
+        "style": "low acid"
+      },
+      {
+        "id": 2,
+        "style": "medium acid"
+      },
+      {
+        "id": 3,
+        "style": "high acid"
+      }
+    ],
+    "varietals": [
+      {
+        "id": 1,
+        "name": "Cabernet Franc",
+        "image": "https://www.brixandcolumns.com/wp-content/uploads/2018/05/cabernetfrancpost.jpg",
+        "wineTypeId": 1,
+        "description": "Along with Cabernet Sauvignon and Merlot, Cabernet Franc is part of the essential blending triad that makes up the majority of the Bordeaux blend (and Meritage) red wines produced in the United States. On its own, Cabernet Franc is a more tannic, earthy cousin to Cabernet Sauvignon. In warmer sites outside of Europe, its most distinctive attributes are its pure notes of violets and blueberry, and its ripe tannins often carry the scent of fresh roasted coffee. It is made (though rarely labeled) as a varietal in Chinon, Bourgueil, and Saumur-Champigny, where it is hard and tannic and can evoke an austere minerality. In Pomerol and Saint-Émilion it is featured in blends with Merlot, adding a spicy, pungent, sometimes minty note."
+      },
+      {
+        "id": 2,
+        "name": "Cabernet Sauvignon",
+        "image": "https://www.grapemust.com/wp-content/uploads/2020/02/napa-valley-921467_1280-e1587261288450.jpg",
+        "wineTypeId": 1,
+        "description": "The primary component of great Bordeaux and the defining grape of the Napa Valley, Cabernet Sauvignon is grown all over the world, but rarely achieves greatness. It ripens late and can be quite weedy and even vegetal in cooler climate regions such as Chile. In Bordeaux and Tuscany it is almost always blended to soften its intensely astringent tannins. The Napa style is dense, purple-black, jammy and tasting of currants and black cherries. Thick and ripe, layered with expensive new oak scents and flavors, it has almost single-handedly created the phenomenon of the cult wineries. In Washington, the best Cabernet straddles the border between the ripeness of California versions and the nuanced herb, leaf, and olive flavors of great Bordeaux."
+      },
+      {
+        "id": 3,
+        "name": "Gamay",
+        "image": "https://mag.sommtv.com/wp-content/uploads/2021/10/gamay_feature.jpg",
+        "wineTypeId": 1,
+        "description": "The grape of Beaujolais, Gamay is often made to be drunk quite young, and shows bright, tangy, fruit-driven flavors of strawberry, raspberry, and sweet cherries. When made by the method known as carbonic maceration, young Gamay has a slight effervescence and a distinct smell of bananas. Beaujolais Nouveau, released each year shortly after harvest, is the most famous example."
+      },
+      {
+        "id": 4,
+        "name": "Grenache/Garnacha",
+        "image": "https://s3.amazonaws.com/southfloridareporter/wp-content/uploads/2019/05/09143511/grenache-grapes.jpg",
+        "wineTypeId": 1,
+        "description": "Old vine Grenache makes some of the greatest red wines of both Spain and Australia, and is an important component of Châteauneuf du Pape, Gigondas, and Côtes du Rhône in France. An early-ripening grape, it tends toward high alcohol and low acidity. At its best it creates very fruity, spicy, bold-flavored wines somewhat reminiscent of a softer, less-intense version of Syrah."
+      },
+      {
+        "id": 5,
+        "name": "Malbec",
+        "image": "https://www.virginwines.co.uk/hub/wp-content/uploads/Malbec-edited.jpg",
+        "wineTypeId": 1,
+        "description": "One of the blending grapes of Bordeaux, Malbec has risen to prominence in Argentina, where it makes spicy, tart red wines that take well to aging in new oak barrels. Elsewhere it remains a minor player, though a few varietally labeled Malbecs are made in California and Washington."
+      },
+      {
+        "id": 6,
+        "name": "Merlot",
+        "image": "https://s3-us-west-1.amazonaws.com/sfc-wordpress2/wp-content/uploads/2019/03/19174923/wine0814_outdoors.jpg",
+        "wineTypeId": 1,
+        "description": "Merlot is the Chardonnay of reds, easy to pronounce, easy to like, agreeable, and versatile, but mostly lacking any substantive character of its own. The great exception is Chateau Pétrus, where it comprises 95 percent of the blend. Varietal Merlot rose to popularity in the 1990s but too many insipid, watery, over-priced Merlots have taken the bloom off the rose. Outside of Bordeaux, it is at its very best in Washington state, where it ripens beautifully and creates plump, powerful wines that can age for a decade or more."
+      },
+      {
+        "id": 7,
+        "name": "Mourvedre/Mataro",
+        "image": "https://i.pinimg.com/originals/8f/08/a9/8f08a97f0566bad9294d2efdf0a5f6e8.jpg",
+        "wineTypeId": 1,
+        "description": "This Mediterranean red grape is especially popular in France and Spain, making medium-bodied, lightly spicy wines with pretty, cherry-flavored fruit. The best sites also add a distinctive, gravelly minerality to the fruit. Some old vine plantings of Mourvèdre remain in California and also in Australia, where it is generally featured in a blend with Shiraz and Grenache."
+      },
+      {
+        "id": 8,
+        "name": "Nebbiolo",
+        "image": "https://terredelbarolo.com/wp-content/uploads/2020/10/Nebbiolo_da_Barolo_Cannubi_FotoLivioOggero-min.jpg",
+        "wineTypeId": 1,
+        "description": "The principal grape of Barolo, Barbaresco, and Gattinara (all made in the Piedmont region of Italy), Nebbiolo unquestionably belongs with the great red wines of the world, but has proven almost impossible to grow anywhere else. California versions, despite decades of effort, remain light, thin and generic. "
+      },
+      {
+        "id": 9,
+        "name": "Pinot Noir",
+        "image": "https://images.bonanzastatic.com/afu/images/c99a/5f91/f2c1_6752005255/il_fullxfull.1604340926_d9qu.jpg",
+        "wineTypeId": 1,
+        "description": "Pinot Noir is the grape that winemakers love to hate; it is the prettiest, sexiest, most demanding, and least predictable of all. The template for great Pinot Noir is Burgundy, but even there the grape is flighty, fragile, and prone to obstinately weedy flavors. It is a principal component of many Champagnes and other sparkling wines, but can also be ripened to produce wines of surprising density and even jammyness in California, New Zealand, and warm sites in Oregon. Pinot Noir is best expressed as a pure varietal, and is often featured as a single-vineyard wine in Oregon and California, emulating the hundreds of tiny appellations of Burgundy. When at its best, Pinot has an ethereal delicacy yet can age for decades; it is most memorably described as “the iron fist in the velvet glove.”"
+      },
+      {
+        "id": 10,
+        "name": "Sangiovese",
+        "image": "https://i.pinimg.com/originals/39/9f/8b/399f8ba2e79f243e016a3c9a11e4a25f.jpg",
+        "wineTypeId": 1,
+        "description": "The principal grape of Tuscany, where it is the primary component of Chianti and Brunello di Montalcino. Sangiovese is relatively light in color and quite firmly acidic. In Italy it shows distinctive flavors of pie cherry, anise, and tobacco; elsewhere it can be rather plain and undistinguished, though some promising bottles have come from Washington’s Walla Walla Valley. Many of Italy’s “Super Tuscan”  red blends marry Sangiovese to Cabernet Sauvignon, a combination that both strengthens the Sangiovese and smooths out the Cabernet."
+      },
+      {
+        "id": 11,
+        "name": "Syrah, Shiraz",
+        "image": "https://www.winemonthclub.com/blog/wp-content/uploads/2013/11/Syrah-Grapes.jpg",
+        "wineTypeId": 1,
+        "description": "Plantings of Syrah have exploded in California and Washington, where sappy, spicy, peppery, luscious versions are being made. Known as Shiraz in Australia, it is unarguably that country’s claim to enological fame. Australian Shiraz is made in every conceivable style, from light and fruity to dense and tarry; it is made as a deep red, tannic sparkling wine, and also as a fortified “Port”. In the northern Rhône, the most extraordinary expressions of the grape are produced, especially in Hermitage and Côte Rôtie, where its peppery, dense, spicy fruit is layered into unbelievably complex wines streaked with mineral, smoked meat, tar, wild herb, and leather."
+      },
+      {
+        "id": 12,
+        "name": "Zinfandel",
+        "image": "https://images.fineartamerica.com/images-medium-large-5/zinfandel-grapes-susan-rovira.jpg",
+        "wineTypeId": 1,
+        "description": "For decades Zinfandel was California’s grape, though now it is grown all over the west coast of the United States, in Australia, Italy, and elsewhere, and its ancestry has been traced to Croatia. But California Zinfandel remains the model for all others, and it grows well and vinifies distinctively all over the state. Mendocino makes somewhat rustic versions with hints of Asian spices; Dry Creek Zinfandels are racy and laden with raspberry. In Amador and Gold Rush country it is hot, thick, and jammy, while in Napa it is plush with ripe, sweet black cherry flavors. California Zinfandels now commonly reach 15 or 16 percent alcohol levels; sometimes even higher for late harvest versions. Zinfandel “Ports” are also made. "
+      },
+      {
+        "id": 13,
+        "name": "Albarino",
+        "image": "https://www.wine-searcher.com/images/grape/albarino-alvarinho-1008-1-2.jpg",
+        "wineTypeId": 2,
+        "description": "Most famously grown in the Spanish region of Rías Baixas, wines from the Albariño grape variety create refreshing white wines. They tend to be dry, have high acid and medium bodies and bring fresh flavors. It’s not commonly aged and is best to be enjoyed young. Occasionally, these grapes will have a stronger body and complexity after spending some time on lees."
+      },
+      {
+        "id": 14,
+        "name": "Chardonnay",
+        "image": "https://www.winemag.com/wp-content/uploads/2018/10/Chablis_Village_Grape_Chardonnay_Photo_Credit_Getty_HERO_1920x1280.jpg",
+        "wineTypeId": 2,
+        "description": "Versatile and popular, Chardonnay grows all over the world. It reaches its mineral-laced pinnacle in Burgundy, ripens to the tropical richness in California and Australia and takes very well to new oak. It picks up buttery aromas from malolactic fermentation and toasty or vanilla scents from aging in new barrels. By itself, young Chardonnay is most likely to recall fresh green apples in both smell and flavor. Depending upon the winemaker, it can be made to be crisp and stony, buttery and toasty or brilliantly fresh with green apple and citrus flavors. "
+      },
+      {
+        "id": 15,
+        "name": "Chenin Blanc",
+        "image": "https://www.coop.ch/content/insieme/en/f16af48a-0991-4d8c-b4d8-cb2ef06cb741/a22e7ecb-ca67-4879-a33a-fd8d532cc850/wein-expertise/rebsorten/chenin-blanc/_jcr_content/body_parsys/_041_cmsrow/_041-cmsRow_parsys/_038_cmsimagetext/_038-image.737.jpg/1630737190236.jpg/-469017342.jpg",
+        "wineTypeId": 2,
+        "description": "Chenin Blanc is a white grape common in the Loire Valley of France. It’s versatile and can produce dry, off-dry, sparkling and sweet dessert wines. Also known as Steen in South Africa, wines made from Chenin Blanc typically exhibit floral aromas, apple and pear-like flavors and assertive acidity. "
+      },
+      {
+        "id": 16,
+        "name": "Furmint",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Furmint_grape_cluster.jpg",
+        "wineTypeId": 2,
+        "description": "Most widely grown in Hungary, Furmint is a grape variety most closely associated with Tokaji wines. These grapes have a high acidity and hold up well to botrytis, making them eligible to create wonderfully sweet wine. Furmint grapes are most planted in the region of Tokaj, Hungary, to produce dry, medium and, most commonly, sweet wines. "
+      },
+      {
+        "id": 17,
+        "name": "Gewurztraminer",
+        "image": "https://www.foodandwine.com/thmb/b6cIcjmUnw-00PIm7Z13b1Q2koA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Wine-Guide-Gewurztraminer-FT-BLOG0722-2000-15a0235f2d35493eb09bc4696cc6c082.jpg",
+        "wineTypeId": 2,
+        "description": "This grape reaches its apex in Alsace, France, where it produces intensely floral, aromatic, spicy wines that range from bone dry to decadently sweet. In cooler climate regions such as Oregon and northern Italy (where it is called simply Traminer), Gewürztraminer makes a crisp, grapefruit-flavored white wine that rarely sees oak and often pairs well with Asian dishes and spicy foods."
+      },
+      {
+        "id": 18,
+        "name": "Gruner Veltliner",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Gruener_Veltliner_Weinsberg_20060909.jpg/1200px-Gruener_Veltliner_Weinsberg_20060909.jpg",
+        "wineTypeId": 2,
+        "description": "Accounting for over a third of all plantings in Austria, Grüner Veltliner is by far its most popular variety. The Czech Republic, Slovakia and even the U.S. house a small amount of Grüner Veltliner plantings, but it’s most expressive when grown and vinified in its native land of Austria. The broad range of flavors and styles that a well-made Grüner Veltliner can display only adds to its mystique and charisma. Young and unoaked versions of this wine show green grape and apple flavors along with peach, citrus and mineral notes. Top-tier options come from lower yielding vineyards and are allowed to age in oak casks. This will typically elicit a white pepper and spicy characteristic that melds with the mellow fruit and rich mineral backbone that these low-production wines possess."
+      },
+      {
+        "id": 19,
+        "name": "Marsanne",
+        "image": "https://www.thewinecellarinsider.com/wp-content/uploads/2011/08/Marsanne.jpg",
+        "wineTypeId": 2,
+        "description": "The most important white wine grape of the northern Rhône, Marsanne has only recently begun to be varietally labeled in the U.S. Both here and in France, it is often blended with Roussanne, Viognier and (sometimes) Grenache Blanc. Marsanne ripens reliably and makes full-bodied, low-acid wines with flavors of almonds, white peaches and lightly spiced pears. Australia boasts some of the oldest plantings in the world."
+      },
+      {
+        "id": 20,
+        "name": "Muscat",
+        "image": "https://cdn.aveine.paris/blog/wp-content/uploads/2021/10/12145446/shutterstock_319209842_muscat-1.jpg",
+        "wineTypeId": 2,
+        "description": "There are many varieties of Muscat throughout the world, but all are marked by a penetrating aroma of oranges. When fermented dry, Muscat’s fruit-driven scents and flavors generally impart a hint of sweetness. It can be made into excellent light sparkling wines, especially the Moscato d’Asti of northern Italy, or rich dessert wines such as Beaumes de Venise. The fortified Muscats of Australia take the grape to its most luscious and dense extremes."
+      },
+      {
+        "id": 21,
+        "name": "Pinot Blanc",
+        "image": "https://www.foodandwine.com/thmb/qygY2-WSrDPtoqAI_vw9V4dmxPA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Wine-Guide-101-Pinot-Blanc-FT-BLOG0822-2000-d1a787039fac4caa85fecd4c5c9b0ea0.jpg",
+        "wineTypeId": 2,
+        "description": "Similar to Chardonnay, but lighter and more elegant, Pinot Blanc has never acquired the cachet or reputation of its big brother Pinot Grigio. But in Alsace, northeast Italy, Oregon and parts of California some very nice versions are made, ranging from lightly herbal to spicy to citrusy. Pinot Blanc is best when left in stainless steel. "
+      },
+      {
+        "id": 22,
+        "name": "Pinot Gris/Grigio",
+        "image": "https://www.wine-searcher.com/images/grape/pinot-gris-382-1-3.jpg",
+        "wineTypeId": 2,
+        "description": "Pinot Grigio creates light, zippy, food-friendly white wines that do not clobber the palate with oak and alcohol. Most popular versions come from the Tre Venezie, but Alsace and the Pfalz region of Germany also do well with the grape. Its alter ego, pinot gris (same grape, different name), has become the pre-eminent white wine of Oregon, where it produces lively, pear-flavored wines that may carry a hint of fruity sweetness. The California version of Pinot Grigio is a bit heavier, but vintners in Washington make intense, tart wines that match well with seafood."
+      },
+      {
+        "id": 23,
+        "name": "Riesling",
+        "image": "https://www.bkwine.com/wp-content/uploads/2021/01/dk21-730-3031.jpg",
+        "wineTypeId": 2,
+        "description": "In flavor, Riesling ranges from dry and stony to floral and sweet, much like Chenin Blanc. The sweetest versions can age for decades. The greatest Rieslings are the German wines of the Mosel-Saar-Ruwer, Rheinhessen and Rheingau; close behind are those of Alsace. Washington, New York and Australia can lay claim to making the best examples of Riesling outside of Europe, from bone dry Rieslings that marry beautifully with shellfish and Pacific Rim dishes, to sharply etched, achingly sweet late harvest Rieslings and ice wines."
+      },
+      {
+        "id": 24,
+        "name": "Roussanne",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Roussanne_-_Geshem_winery.jpg/220px-Roussanne_-_Geshem_winery.jpg",
+        "wineTypeId": 2,
+        "description": "Roussanne is widely planted throughout southern France and has become quite popular among the Rhone Rangers of California and Washington State. Full-bodied and tasting of lime and citrus, its nervy acids make it a fine blending partner for Marsanne."
+      },
+      {
+        "id": 25,
+        "name": "Sauvignon/Fumé Blanc",
+        "image": "https://www.empsonusa.com/wp-content/uploads/2020/04/Savvy-Sauvignon_Header-1024x575.jpg",
+        "wineTypeId": 2,
+        "description": "Sauvignon Blanc does well in widely diverse parts of the world, and is something of a chameleon grape that can deliver interesting flavors across a wide spectrum of ripeness. The Fumé Blanc moniker, coined in the 1970s by Robert Mondavi as a sales gimmick, is still commonly used and often indicates that the wine has been barrel-fermented. In Sancerre and Pouilly-Fumé in the Loire Valley, it sports an aggressively herbaceous, grassy pungency, which combines with the bracing acids and stony minerality of the soils. It has become the benchmark white wine of New Zealand, where the intensity of the green citrus and berry fruit flavors is predominant. In California, it is made in a wide range of styles, but often ripened and barrel-fermented to taste like a peachy, tropical Chardonnay. Late harvest Sauvignon Blanc, often blended with Sémillon, makes some of the greatest sweet wines in the world, most notably Sauternes."
+      },
+      {
+        "id": 26,
+        "name": "Muller-Thurgau",
+        "image": "https://www.wine-searcher.com/images/grape/muller-thurgau-299-1-2.jpg",
+        "wineTypeId": 2,
+        "description": "Müller-Thurgau is a white wine grape variety used predominantly in Germany. A crossing of Riesling and Madeleine Royale, it was created in 1882 by Dr. Herman Müller (of Thurgau, Switzerland), after whom it is named. Few wine experts have kind things to say about Müller-Thurgau, and the variety is consistently blamed for producing the bland, off-dry style of white wine that dominated Germany until the 1980s."
+      },
+      {
+        "id": 27,
+        "name": "Vermentino",
+        "image": "https://younggunofwine.com/wp-content/uploads/2021/07/Vermentino-grape-bunch-on-vine.jpg",
+        "wineTypeId": 2,
+        "description": "Vermentino is a white wine grape grown in various locations, and under various names, around the western Mediterranean. Strongholds include northwestern Italy, southern France and the neighboring islands of Corsica and Sardinia. It goes by various names, among them Pigato in Liguria, Favorita in Piedmont and Rolle in Provence, although there is long-standing disagreement over which of these are synonyms of Vermentino and which are distinct varieties in their own right. Whatever the truth, Vermentino wines, Pigato wines, Favorita wines and Rolle wines have a lot in common, most obviously their refreshing acidity and attractive aromas of peach, lemon peel, dried herbs and a whiff of saline minerality."
+      },
+      {
+        "id": 28,
+        "name": "Hondarrubi Zuri",
+        "image": "https://www.spain.info/export/sites/segtur/.content/imagenes/reportajes/pais-vasco/ruta-txacoli-11-Txakoli.jpg",
+        "wineTypeId": 2,
+        "description": "Txakoli wines are refreshingly bracing and light bodied, with a gentle sparkling effect. Aromas of citrus and white fruits, together with herbal notes, are followed by flavors of lemon, lime, apple, pear and sometimes pineapple, which combine with a mineral or saline edge leading to a pleasantly zesty finish. Many exhibit a palate cleansing, sherbet-like quality."
+      },
+      {
+        "id": 29,
+        "name": "Macabeo",
+        "image": "https://www.wine-searcher.com/images/grape/macabeo-viura-574-1-1.jpg?width=734",
+        "wineTypeId": 2,
+        "description": "This grape is widely grown in the Rioja region of Spain as well as the Cava producing areas south of Barcelona. It is a non aromatic, relatively neutral grape often used for blending but also used on its own in many Spanish white wines. It is low acid and goes with many savory dishes."
+      },
+      {
+        "id": 30,
+        "name": "Grillo",
+        "image": "https://learn.winecoolerdirect.com/wp-content/uploads/2017/01/grillo-grapes.jpg",
+        "wineTypeId": 2,
+        "description": "Grillo is a Sicilian white grape variety most famous for its role in the island's fortified Marsala wines. It is still widely planted on Sicily despite Marsala's fall from fashion, and is now used most commonly in a variety of still white wines, both varietal and blended. Grillo, when vinified to a high standard, makes a fresh, light white wine with nutty, fruit-driven flavors that include lemon and apple."
+      },
+      {
+        "id": 31,
+        "name": "Vinho Verde",
+        "image": "https://www.winemag.com/wp-content/uploads/2019/06/Vino_Verde_grapes_photocredit_Courtesy_of_Alvarinho.jpg",
+        "wineTypeId": 2,
+        "description": "Vinho Verde comes from a small region in Northern Portugal known for its super-value whites, reds, and rosés. These wines are loved for mouth-zapping acidity, subtle carbonation, and lower alcohol, making them a great choice for summer. When you dig into Vinho Verde wine you realize this seemingly cheap, fizzy wine is something truly special."
+      },
+      {
+        "id": 32,
+        "name": "Melon de Bourgogne/Muscadet",
+        "image": "https://media.winefolly.com/Muscadet-melon-de-bourgogne-grapes-objectif-nantes.jpg",
+        "wineTypeId": 2,
+        "description": "Melon de Bourgogne is a white grape variety that is grown in the Loire Valley of France. This grape is known in the Muscadet dry white wine, which is made almost entirely out of the Melon de Bourgogne variety. The grape variety is so common in the wine that the variety is often referred to as “Muscadet”. Melon de Bourgogne is also known as Melon, and is also grown in North America. The grape is said to have originated in Burgundy and grown there until the variety was destroyed in the 18th century. In the winter of 1709, many vines in Loire and Nantes were destroyed. Out of the cold winter, Melon was introduced because of its ability to withstand frost. DNA research shows that Melon de Bourgogne is a mix between Gouais blanc and Pinot blanc. In the United States, using the term “Muscadet” for wines created in America is prohibited. The wines can use the term “Melon” or “Melon de Bourgogne”. The grape is grown in Oregon, where it is called by the term “Melon.” This variety is perfect with fresh shellfish, such as oysters, and is great while young. The wine lends citrus and salty notes and has a nice silky texture."
+      },
+      {
+        "id": 33,
+        "name": "Semillon ",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Semillon_wine_grapes.jpg/220px-Semillon_wine_grapes.jpg",
+        "wineTypeId": 2,
+        "description": "Like Sauvignon Blanc, its frequent blending mate, Sémillon can make a fine, bone-dry white wine, notable for its texture and softly grassy aromas, or it can be late harvested, shriveled with botrytis, and turned into some of the world’s greatest dessert wines. As a solo varietal, it has had sparse success, though Washington state does very well with the grape, as does Australia. Though low in acid, Sémillons are wines that can age nicely and take on added layers of subtle spice and herb. Young Sémillons taste of figs and melons, adding leafy notes as they age."
+      },
+      {
+        "id": 34,
+        "name": "Viognier",
+        "image": "https://www.foodandwine.com/thmb/6q9gNJbm8jyY_zQ94Hs6uVCfjGU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Wine-Guide-101-Viognier-FT-BLOG0922-2000-b46787924486401eabb694f1e47e34c2.jpg",
+        "wineTypeId": 2,
+        "description": "Viognier is intensely aromatic, and when perfectly ripened, smells of apricots, peaches and citrus rind. It’s a difficult wine to make, as it can be quite bitter and austere when not-quite ripe and turn flabby and hot when overripe. Excellent wines using this grape that are made in Washington, California and Australia tend toward the ripe, hot, peachy styles. Viognier is also blended and/or co-fermented with Syrah, adding wonderful high notes of citrus and flower to the finished red wine."
+      },
+      {
+        "name": "Trebbiano Toscano",
+        "description": "The wines based on Trebbiano range from the straw yellow of the dry vinifications to the golden yellow of the passito wines. The organoleptic profile is quite neutral, its wines are not noted for particular characteristics; the taste is structured, alcoholic and very fresh, almost acidic. In the passito versions, where acidity is winner, very pleasant hints of dried fruit and spices emerge.",
+        "image": "https://www.italyabroad.com/resources/images/trebbiano_toscana.jpg",
+        "wineTypeId": 2,
+        "id": 35
+      },
+      {
+        "name": "Pinot Meunier",
+        "image": "https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://www.winetraveler.com/wp-content/uploads/2018/09/pinot-meunier-grape-variety-charactistics-tasting-notes-food-pairings.jpg",
+        "description": "This fruity red grape is mostly seen as a chief blending partner in the world’s most popular sparkling wine, Champagne",
+        "wineTypeId": 5,
+        "id": 36
+      },
+      {
+        "name": "Pinot Noir (rose)",
+        "image": "https://www.winemonthclub.com/blog/wp-content/uploads/2016/05/pinot-noir-grape.jpg",
+        "description": "Pinot Noir rosé is highly regarded for its fruit forward characteristics, as well as a bright acidity – just the sort of thing that goes beautifully with summer excursions and long days at the beach. And maybe it’s the colder weather, but that sort of thing really appeals to us right now.",
+        "wineTypeId": 3,
+        "id": 37
+      },
+      {
+        "name": "Barbera",
+        "image": "https://younggunofwine.com/wp-content/uploads/2020/12/Barbera_grape-bunch-on-vine.jpg",
+        "description": "Barbera has long filled-in the low slopes and valleys of Northern Italy. It’s considered a lesser wine to Nebbiolo and, therefore, doesn’t earn the best grape-growing real estate (such as South-facing slopes on hills above the ‘nebbia’ or fog).\n\nDespite its lowly position, Barbera is the quintessential ‘wine of the people,’ it’s meant to be enjoyed young — and it’s cheap!\n\nDiscover this unique little grape and never again feel like you have to revert to ‘Chianti’ when looking for a great valued Italian wine.Mish-Mash Flavor: Somehow Barbera wine tastes both rich and light-bodied. Why is that? Well, one reason is that it has dark staining pigments that dye the wine to near-black.\n\nHowever, the taste of Barbera has notes of strawberry and sour cherry: flavors synonymous with light-bodied wines. Light tannin and high acidity make it taste ‘Juicy’.",
+        "wineTypeId": 1,
+        "id": 38
+      },
+      {
+        "name": "Aligote",
+        "image": "https://th.bing.com/th/id/R.18b320113b890fc2f0cf5343fbb5d48b?rik=qmZMbjJn%2fIEaMQ&riu=http%3a%2f%2fplantgrape.plantnet-project.org%2fimg%2fAligot%c3%a9_B__grappe_.jpg&ehk=L1f9fU72t1ZgzWV7SJMzuzbXD37gJUQleitG%2f6jb0iA%3d&risl=&pid=ImgRaw&r=0",
+        "description": "Aligoté is Burgundy’s “other” white grape, more rarely encountered than Chardonnay; yielding light, citrusy wines. It is also the traditional base ingredient for the Kir cocktail.",
+        "wineTypeId": 2,
+        "id": 39
+      },
+      {
+        "name": "Carignan",
+        "image": "https://th.bing.com/th/id/OIP.D83gIU-kkFYt9rZHAfOZKwHaDV?pid=ImgDet&rs=1",
+        "description": "Carignan (“care-in-yen”) is a medium-bodied red wine that grows mostly in Southern France where it’s a major blending grape in Côtes Catalanes, Corbières, Minervois, Fitou and Faugères (located in Languedoc-Roussillon). Besides France, Carignan is found in Northern Spain where it’s commonly called Cariñena or Mazuelo and it also grows in Sardinia (Italy) where it’s labeled as Carignano del Sulcis. For the longest time, Carignan was considered a low-quality wine grape, however many producers are reinvigorating old vineyards and making tremendously rich, red fruit-driven wines that will blow your mind.\n\nWhat’s more enticing is that Carignan is always quite affordable.",
+        "wineTypeId": 1,
+        "id": 40
+      },
+      {
+        "name": "Cattarato",
+        "image": "https://th.bing.com/th/id/OIP.RrYPKeLyfsr-wZOadbgsYgHaFW?pid=ImgDet&rs=1",
+        "description": "Catarratto is a white grape variety from the island of Sicily, off the southern coast of Italy, and is mostly used in the production of light, easy-drinking white wines. Despite being grown almost exclusively on the island, it is one of Italy's most commonly planted grape varieties, making up around 60 percent of the island's total vineyard area.",
+        "wineTypeId": 2,
+        "id": 41
+      },
+      {
+        "name": "Petit Arvine",
+        "image": "https://4.bp.blogspot.com/-LAF-E-hd4Ns/Tt-4-24b-fI/AAAAAAAAArg/iwuJtXQQFkQ/s1600/Petite+Arvine+grapes.jpg",
+        "description": "Petite Arvine is a white wine grape planted in the Aosta Valley region in Italy and in the Valais region of Switzerland.\n\nPetite Arvine has a brilliant straw yellow color with young green highlights. The wine has rich texture with piercing mineralogy on the palate. Long finish with lingering sea salt and mineral overtones.  It can typically be enjoyed with cheeses, seafoods, white meat and salami.\n\nPetite Arvine has a reputation as a unique grape variety, and is seen as the best white wine grape of the regions. Its wines are rich in extract from its thick-skinned berries. Overall, wines produced from this varietal are made of very high quality.",
+        "wineTypeId": 2,
+        "id": 42
+      },
+      {
+        "name": "Corvina",
+        "image": "https://cdn.shopify.com/s/files/1/0264/7189/collections/Corvina_1024x1024.png?v=1433138315",
+        "description": "blah",
+        "wineTypeId": 2,
+        "id": 43
+      }
+    ],
+    "regions": [
+      {
+        "id": 1,
+        "location": "Bordeaux",
+        "geoCodeCity": "Bordeaux",
+        "country": "France"
+      },
+      {
+        "id": 2,
+        "location": "Burgundy",
+        "geoCodeCity": "Lyon",
+        "country": "France"
+      },
+      {
+        "id": 3,
+        "location": "Beaujolais",
+        "geoCodeCity": "Lyon",
+        "country": "France"
+      },
+      {
+        "id": 4,
+        "location": "Alsace",
+        "geoCodeCity": "Strasbourg",
+        "country": "France"
+      },
+      {
+        "id": 5,
+        "location": "Loire Valley",
+        "geoCodeCity": "Tours",
+        "country": "France"
+      },
+      {
+        "id": 6,
+        "location": "Rhone Valley",
+        "geoCodeCity": "Lyon",
+        "country": "France"
+      },
+      {
+        "id": 7,
+        "location": "Provence",
+        "geoCodeCity": "Marseille",
+        "country": "France"
+      },
+      {
+        "id": 8,
+        "location": "Languedoc-Roussillon",
+        "geoCodeCity": "Toulouse",
+        "country": "France"
+      },
+      {
+        "id": 9,
+        "location": "Corsica",
+        "geoCodeCity": "Corsica",
+        "country": "France"
+      },
+      {
+        "id": 10,
+        "location": "California",
+        "geoCodeCity": "Napa",
+        "country": "United States"
+      },
+      {
+        "id": 11,
+        "location": "Oregon",
+        "geoCodeCity": "Portland",
+        "country": "United States"
+      },
+      {
+        "id": 12,
+        "location": "New Mexico",
+        "geoCodeCity": "Albuquerque",
+        "country": "United States"
+      },
+      {
+        "id": 13,
+        "location": "Duoro Valley",
+        "geoCodeCity": "Dao",
+        "country": "Portugal"
+      },
+      {
+        "id": 14,
+        "location": "Dao",
+        "geoCodeCity": "Dao",
+        "country": "Portugal"
+      },
+      {
+        "id": 15,
+        "location": "Vinho Verde",
+        "geoCodeCity": "Porto",
+        "country": "Portugal"
+      },
+      {
+        "id": 16,
+        "location": "Marlborough",
+        "geoCodeCity": "Blenheim",
+        "country": "New Zealand"
+      },
+      {
+        "id": 17,
+        "location": "Western Cape",
+        "geoCodeCity": "Cape Town",
+        "country": "South Africa"
+      },
+      {
+        "id": 18,
+        "location": "Mosel",
+        "geoCodeCity": "Trier",
+        "country": "Germany"
+      },
+      {
+        "id": 19,
+        "location": "Rheinhaussen",
+        "geoCodeCity": "Mainz",
+        "country": "Germany"
+      },
+      {
+        "id": 20,
+        "location": "Pfalz",
+        "geoCodeCity": "Mainz",
+        "country": "Germany"
+      },
+      {
+        "id": 21,
+        "location": "Lower Austria",
+        "geoCodeCity": "Vienna",
+        "country": "Austria"
+      },
+      {
+        "id": 22,
+        "location": "Mendoza",
+        "geoCodeCity": "Mendoza",
+        "country": "Argentina"
+      },
+      {
+        "id": 23,
+        "location": "Maule Valley",
+        "country": "Chile",
+        "geoCodeCity": "Santiago"
+      },
+      {
+        "location": "Sardinia",
+        "country": "Italy",
+        "geoCodeCity": "Cagliari",
+        "id": 24
+      },
+      {
+        "location": "Tuscany",
+        "country": "Italy",
+        "geoCodeCity": "San Gimignano",
+        "id": 25
+      },
+      {
+        "location": "Basque/Txakoli",
+        "country": "Spain",
+        "geoCodeCity": "Bilbao",
+        "id": 26
+      },
+      {
+        "location": "Champagne",
+        "country": "France",
+        "geoCodeCity": "Reims",
+        "id": 27
+      },
+      {
+        "location": "Piedmont",
+        "country": "Italy",
+        "geoCodeCity": "Alba",
+        "id": 28
+      },
+      {
+        "location": "Rioja",
+        "country": "Spain",
+        "geoCodeCity": "Madrid",
+        "id": 29
+      },
+      {
+        "location": "Alto Adige",
+        "country": "Italy",
+        "geoCodeCity": "Bolzano",
+        "id": 30
+      },
+      {
+        "location": "Lombardy",
+        "country": "Italy",
+        "geoCodeCity": "Milan",
+        "id": 31
+      },
+      {
+        "location": "Tokaj",
+        "country": "Hungary",
+        "geoCodeCity": "Tokaj",
+        "id": 32
+      },
+      {
+        "location": "Sicily",
+        "country": "Italy",
+        "geoCodeCity": "Sicily",
+        "id": 33
+      },
+      {
+        "location": "South Australia",
+        "country": "Australia",
+        "geoCodeCity": "Adelaide",
+        "id": 34
+      },
+      {
+        "location": "Colorado",
+        "country": "United States",
+        "geoCodeCity": "Palisade",
+        "id": 35
+      },
+      {
+        "location": "Valais",
+        "country": "Switzerland",
+        "geoCodeCity": "Sion",
+        "id": 36
+      },
+      {
+        "location": "Veneto",
+        "country": "Italy",
+        "geoCodeCity": "Verona",
+        "id": 37
+      }
+    ],
+    "varietalRegions": [
+      {
+        "id": 1,
+        "regionId": 16,
+        "varietalId": 25,
+        "bodyId": 4,
+        "acidityId": 3,
+        "drynessId": 3
+      },
+      {
+        "id": 2,
+        "regionId": 3,
+        "varietalId": 3,
+        "bodyId": 4,
+        "acidityId": 2,
+        "drynessId": 3
+      },
+      {
+        "id": 3,
+        "regionId": 11,
+        "varietalId": 9,
+        "bodyId": 5,
+        "drynessId": 2,
+        "acidityId": 3
+      },
+      {
+        "id": 4,
+        "regionId": 18,
+        "varietalId": 23,
+        "bodyId": 3,
+        "acidityId": 3,
+        "drynessId": 5
+      },
+      {
+        "id": 5,
+        "regionId": 17,
+        "varietalId": 15,
+        "bodyId": 4,
+        "drynessId": 4,
+        "acidityId": 3
+      },
+      {
+        "id": 6,
+        "regionId": 5,
+        "varietalId": 15,
+        "bodyId": 3,
+        "drynessId": 4,
+        "acidityId": 3
+      },
+      {
+        "id": 7,
+        "regionId": 2,
+        "varietalId": 9,
+        "bodyId": 6,
+        "acidityId": 2,
+        "drynessId": 2
+      },
+      {
+        "varietalId": 5,
+        "regionId": 22,
+        "bodyId": 2,
+        "drynessId": 4,
+        "acidityId": 2,
+        "id": 8
+      },
+      {
+        "varietalId": 35,
+        "regionId": 25,
+        "bodyId": 4,
+        "drynessId": 3,
+        "acidityId": 2,
+        "id": 9
+      },
+      {
+        "varietalId": 28,
+        "regionId": 26,
+        "bodyId": 5,
+        "drynessId": 2,
+        "acidityId": 3,
+        "id": 10
+      },
+      {
+        "varietalId": 36,
+        "regionId": 27,
+        "bodyId": 4,
+        "drynessId": 1,
+        "acidityId": 2,
+        "id": 11
+      },
+      {
+        "varietalId": 14,
+        "regionId": 27,
+        "bodyId": 3,
+        "drynessId": 3,
+        "acidityId": 2,
+        "id": 12
+      },
+      {
+        "varietalId": 26,
+        "regionId": 19,
+        "bodyId": 2,
+        "drynessId": 4,
+        "acidityId": 2,
+        "id": 13
+      },
+      {
+        "varietalId": 14,
+        "regionId": 10,
+        "bodyId": 2,
+        "drynessId": 4,
+        "acidityId": 3,
+        "id": 14
+      },
+      {
+        "varietalId": 31,
+        "regionId": 15,
+        "bodyId": 5,
+        "drynessId": 4,
+        "acidityId": 2,
+        "id": 15
+      },
+      {
+        "varietalId": 1,
+        "regionId": 1,
+        "bodyId": 3,
+        "drynessId": 2,
+        "acidityId": 2,
+        "id": 16
+      },
+      {
+        "varietalId": 18,
+        "regionId": 21,
+        "bodyId": 4,
+        "drynessId": 3,
+        "acidityId": 3,
+        "id": 17
+      },
+      {
+        "id": 18,
+        "regionId": 28,
+        "varietalId": 8,
+        "bodyId": 6,
+        "acidityId": 2,
+        "drynessId": 1
+      },
+      {
+        "varietalId": 10,
+        "regionId": 25,
+        "bodyId": 4,
+        "drynessId": 3,
+        "acidityId": 2,
+        "id": 19
+      },
+      {
+        "varietalId": 33,
+        "regionId": 1,
+        "bodyId": 3,
+        "drynessId": 3,
+        "acidityId": 2,
+        "id": 20
+      },
+      {
+        "varietalId": 29,
+        "regionId": 29,
+        "drynessId": 2,
+        "acidityId": 1,
+        "bodyId": 4,
+        "id": 21
+      },
+      {
+        "varietalId": 20,
+        "regionId": 28,
+        "bodyId": 4,
+        "drynessId": 5,
+        "acidityId": 2,
+        "id": 22
+      },
+      {
+        "varietalId": 32,
+        "regionId": 2,
+        "bodyId": 6,
+        "drynessId": 2,
+        "acidityId": 3,
+        "id": 23
+      },
+      {
+        "varietalId": 37,
+        "regionId": 10,
+        "bodyId": 5,
+        "drynessId": 4,
+        "acidityId": 2,
+        "id": 24
+      },
+      {
+        "varietalId": 22,
+        "regionId": 30,
+        "bodyId": 6,
+        "drynessId": 2,
+        "acidityId": 3,
+        "id": 25
+      },
+      {
+        "varietalId": 22,
+        "regionId": 4,
+        "bodyId": 2,
+        "drynessId": 4,
+        "acidityId": 2,
+        "id": 26
+      },
+      {
+        "varietalId": 22,
+        "regionId": 10,
+        "bodyId": 2,
+        "drynessId": 4,
+        "acidityId": 2,
+        "id": 27
+      },
+      {
+        "varietalId": 17,
+        "regionId": 4,
+        "bodyId": 3,
+        "drynessId": 4,
+        "acidityId": 1,
+        "id": 28
+      },
+      {
+        "varietalId": 16,
+        "regionId": 32,
+        "acidityId": 3,
+        "drynessId": 3,
+        "bodyId": 5,
+        "id": 29
+      },
+      {
+        "varietalId": 30,
+        "regionId": 33,
+        "bodyId": 2,
+        "drynessId": 3,
+        "acidityId": 1,
+        "id": 30
+      },
+      {
+        "varietalId": 6,
+        "regionId": 1,
+        "bodyId": 2,
+        "drynessId": 3,
+        "acidityId": 2,
+        "id": 31
+      },
+      {
+        "varietalId": 11,
+        "regionId": 6,
+        "bodyId": 1,
+        "drynessId": 3,
+        "acidityId": 2,
+        "id": 32
+      },
+      {
+        "varietalId": 11,
+        "regionId": 34,
+        "bodyId": 1,
+        "drynessId": 3,
+        "acidityId": 2,
+        "id": 33
+      },
+      {
+        "varietalId": 12,
+        "regionId": 10,
+        "bodyId": 2,
+        "drynessId": 4,
+        "acidityId": 2,
+        "id": 34
+      },
+      {
+        "varietalId": 3,
+        "regionId": 11,
+        "bodyId": 3,
+        "drynessId": 4,
+        "acidityId": 2,
+        "id": 35
+      },
+      {
+        "varietalId": 6,
+        "regionId": 10,
+        "bodyId": 2,
+        "drynessId": 4,
+        "acidityId": 2,
+        "id": 36
+      },
+      {
+        "varietalId": 2,
+        "regionId": 10,
+        "bodyId": 1,
+        "drynessId": 3,
+        "acidityId": 3,
+        "id": 37
+      },
+      {
+        "varietalId": 25,
+        "regionId": 10,
+        "bodyId": 3,
+        "drynessId": 3,
+        "acidityId": 3,
+        "id": 38
+      },
+      {
+        "varietalId": 7,
+        "regionId": 7,
+        "bodyId": 1,
+        "drynessId": 2,
+        "acidityId": 2,
+        "id": 39
+      },
+      {
+        "varietalId": 33,
+        "regionId": 34,
+        "bodyId": 3,
+        "drynessId": 3,
+        "acidityId": 2,
+        "id": 40
+      },
+      {
+        "varietalId": 38,
+        "regionId": 28,
+        "bodyId": 4,
+        "drynessId": 3,
+        "acidityId": 3,
+        "id": 41
+      },
+      {
+        "varietalId": 40,
+        "regionId": 8,
+        "bodyId": 3,
+        "acidityId": 2,
+        "drynessId": 3,
+        "id": 42
+      },
+      {
+        "varietalId": 41,
+        "regionId": 33,
+        "bodyId": 4,
+        "drynessId": 2,
+        "acidityId": 2,
+        "id": 43
+      },
+      {
+        "varietalId": 42,
+        "regionId": 36,
+        "drynessId": 4,
+        "acidityId": 2,
+        "bodyId": 4,
+        "id": 44
+      },
+      {
+        "varietalId": 43,
+        "regionId": 37,
+        "bodyId": 4,
+        "drynessId": 2,
+        "acidityId": 3,
+        "id": 45
+      }
+    ],
+    "favorites": [
+      {
+        "id": 5,
+        "userId": 5,
+        "varietalRegionId": 5
+      },
+      {
+        "id": 6,
+        "userId": 6,
+        "varietalRegionId": 6
+      },
+      {
+        "userId": 4,
+        "varietalRegionId": 4,
+        "id": 14
+      },
+      {
+        "userId": 4,
+        "varietalRegionId": 14,
+        "id": 15
+      },
+      {
+        "userId": 4,
+        "varietalRegionId": 19,
+        "id": 18
+      },
+      {
+        "userId": 8,
+        "varietalRegionId": 1,
+        "id": 19
+      },
+      {
+        "userId": 8,
+        "varietalRegionId": 5,
+        "id": 20
+      },
+      {
+        "userId": 8,
+        "varietalRegionId": 10,
+        "id": 21
+      },
+      {
+        "userId": 8,
+        "varietalRegionId": 15,
+        "id": 22
+      },
+      {
+        "userId": 8,
+        "varietalRegionId": 17,
+        "id": 23
+      },
+      {
+        "userId": 8,
+        "varietalRegionId": 23,
+        "id": 24
+      },
+      {
+        "userId": 9,
+        "varietalRegionId": 4,
+        "id": 32
+      },
+      {
+        "userId": 9,
+        "varietalRegionId": 4,
+        "id": 37
+      },
+      {
+        "userId": 3,
+        "varietalRegionId": 10,
+        "id": 41
+      },
+      {
+        "userId": 3,
+        "varietalRegionId": 6,
+        "id": 45
+      },
+      {
+        "userId": 4,
+        "varietalRegionId": 3,
+        "id": 46
+      },
+      {
+        "userId": 4,
+        "varietalRegionId": 2,
+        "id": 47
+      },
+      {
+        "userId": 6,
+        "varietalRegionId": 20,
+        "id": 49
+      },
+      {
+        "userId": 4,
+        "varietalRegionId": 26,
+        "id": 50
+      },
+      {
+        "userId": 3,
+        "varietalRegionId": 21,
+        "id": 53
+      },
+      {
+        "userId": 3,
+        "varietalRegionId": 2,
+        "id": 54
+      },
+      {
+        "userId": 3,
+        "varietalRegionId": 17,
+        "id": 56
+      },
+      {
+        "userId": 3,
+        "varietalRegionId": 1,
+        "id": 63
+      },
+      {
+        "userId": 3,
+        "varietalRegionId": 41,
+        "id": 65
+      },
+      {
+        "userId": 3,
+        "varietalRegionId": 3,
+        "id": 66
+      },
+      {
+        "userId": 3,
+        "varietalRegionId": 35,
+        "id": 67
+      },
+      {
+        "userId": 2,
+        "varietalRegionId": 1,
+        "id": 69
+      },
+      {
+        "userId": 2,
+        "varietalRegionId": 4,
+        "id": 70
+      },
+      {
+        "userId": 2,
+        "varietalRegionId": 15,
+        "id": 71
+      },
+      {
+        "userId": 2,
+        "varietalRegionId": 17,
+        "id": 72
+      },
+      {
+        "userId": 3,
+        "varietalRegionId": 7,
+        "id": 73
+      }
+    ],
+    "wineBottles": [
+      {
+        "name": "Les Petit Fers",
+        "vintage": "2019",
+        "varietalRegionId": 35,
+        "image": "https://cdn.klwines.com/images/skus/1415586x.jpg",
+        "link": "https://www.klwines.com/p/i?i=1415586",
+        "id": 1
+      },
+      {
+        "name": "Matua Sauvignon Blanc",
+        "image": "https://www.matua.co.nz/-/media/Images/Matua/Wines/Bottleshots/MAT-2019-Marlb-SauvBlanc-US-750.ashx?la=en-US&modified=00010101000000&mw=1382&hash=F327AC35E9D65D07BCE3C7E44E074B03132D1B61",
+        "vintage": "2019",
+        "link": "https://www.matua.co.nz/en-us/sauvignon-blanc",
+        "varietalRegionId": 1,
+        "id": 2
+      },
+      {
+        "image": "https://www.wine.com/product/images/w_250,h_250,dpr_2.0,c_fit,q_auto:good,fl_progressive/rlazqiavvhiyv5od5lzi.jpg",
+        "name": "Ameztoi Getariako",
+        "vintage": "2021",
+        "link": "https://www.wine.com/product/ameztoi-getariako-txakolina-2021/919756?s=cse_connexity&cid=cse_connexity&utm_source=connexity&utm_medium=cse&utm_campaign=connexity&cnxclid=16787568481821300045210070302008005",
+        "varietalRegionId": 10,
+        "id": 3
+      },
+      {
+        "name": "Julien Sunier Wild Soul",
+        "image": "https://dsi2vjvztwiuk.cloudfront.net/website/products/119958/bottle/773778/square.png",
+        "vintage": "2019",
+        "link": "https://winelibrary.com/wines/gamay/2019-julien-sunier-wild-soul-beaujolais-lantignie-119958",
+        "varietalRegionId": 2,
+        "id": 4
+      },
+      {
+        "name": "Tyrell's Hunter Valley Semillon",
+        "image": "https://www.wine.com/product/images/w_250,h_250,dpr_2.0,c_fit,q_auto:good,fl_progressive/zu9xbreqcwftbewbwhuu.jpg",
+        "link": "https://www.wine.com/product/tyrrells-hunter-valley-semillon-2021/979419?s=cse_connexity&cid=cse_connexity&utm_source=connexity&utm_medium=cse&utm_campaign=connexity&cnxclid=16793352947535192151710080302008005",
+        "vintage": "2021",
+        "varietalRegionId": 40,
+        "id": 5
+      },
+      {
+        "name": "Kim Crawford Sauvignon Blanc",
+        "link": "https://www.kimcrawfordwines.com/collections/our-wines/products/sauvignon-blanc",
+        "vintage": "2022",
+        "image": "https://cdn.shopify.com/s/files/1/0589/1067/1057/products/sauvignon-blanc-1.00bca0b_600x.png?v=1631900797",
+        "varietalRegionId": 1,
+        "id": 6
+      },
+      {
+        "name": "Kim Crawford Rose",
+        "image": "https://cdn.shopify.com/s/files/1/0589/1067/1057/products/KIM_Prosecco_750ml_Front_1_600x.png?v=1678993717",
+        "vintage": "2022",
+        "link": "https://www.kimcrawfordwines.com/collections/our-wines/products/rose",
+        "varietalRegionId": 39,
+        "id": 7
+      },
+      {
+        "name": "Nikau Point",
+        "image": "https://www.wine-searcher.com/images/labels/65/48/10976548.jpg?width=466&height=400&fit=bounds",
+        "vintage": "2022",
+        "link": "https://www.wine-searcher.com/find/nikau+point+sauv+blanc+marlborough+new+zealand/1/usa-tn-y",
+        "varietalRegionId": 1,
+        "id": 8
+      }
+    ],
+    "messages": [
+      {
+        "receiverUserId": 6,
+        "senderUserId": 3,
+        "timeStamp": "3/17/2023, 1:08:33 PM",
+        "body": "Hi Liz!",
+        "id": 2
+      },
+      {
+        "receiverUserId": 5,
+        "senderUserId": 4,
+        "timeStamp": "3/17/2023, 1:42:35 PM",
+        "body": "Hi Hannah!",
+        "id": 5
+      },
+      {
+        "receiverUserId": 2,
+        "senderUserId": 3,
+        "timeStamp": "3/20/2023, 1:30:51 PM",
+        "body": "Hi Wesley!",
+        "id": 6
+      },
+      {
+        "receiverUserId": 3,
+        "senderUserId": 1,
+        "timeStamp": "3/21/2023, 10:33:29 AM",
+        "body": "Hi Poppy ",
+        "id": 7
+      },
+      {
+        "receiverUserId": 2,
+        "senderUserId": 1,
+        "timeStamp": "3/21/2023, 10:35:37 AM",
+        "body": "Hi Wesley!",
+        "id": 8
+      },
+      {
+        "receiverUserId": 4,
+        "senderUserId": 1,
+        "timeStamp": "3/21/2023, 10:38:09 AM",
+        "body": "Hi Jackson!",
+        "id": 10
+      },
+      {
+        "receiverUserId": 3,
+        "senderUserId": 2,
+        "timeStamp": "3/21/2023, 9:18:16 PM",
+        "body": "Hi Pop!",
+        "id": 11
+      },
+      {
+        "receiverUserId": 1,
+        "senderUserId": 3,
+        "timeStamp": "3/24/2023, 3:38:55 PM",
+        "body": "Hi Vision!",
+        "id": 12
+      }
+    ]
+  }
