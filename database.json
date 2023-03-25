@@ -4,7 +4,7 @@
         "id": 1,
         "fullName": "Vision Filler",
         "email": "visionfiller@gmail.com",
-        "profilePicture": "http://localhost:3000/images/vision.jpeg",
+        "profilePicture": "https://white-rabbit-98r9i.ondigitalocean.app/images/vision.jpeg",
         "password": "ilovewine",
         "isStaff": true
       },
@@ -21,7 +21,7 @@
         "fullName": "Poppy Hughes Filler",
         "email": "poppy@gmail.com",
         "password": "ilovewine",
-        "profilePicture": "http://localhost:3000/images/poppy.jpeg",
+        "profilePicture": "https://white-rabbit-98r9i.ondigitalocean.app/images/poppy.jpeg",
         "isStaff": false
       },
       {
@@ -37,7 +37,7 @@
         "fullName": "Hannah Collins",
         "email": "hannah@gmail.com",
         "password": "ilovewine",
-        "profilePicture": "http://localhost:3000/images/ada.jpg",
+        "profilePicture": "https://white-rabbit-98r9i.ondigitalocean.app/images/ada.jpg",
         "isStaff": false
       },
       {
@@ -45,7 +45,7 @@
         "fullName": "Liz Clement",
         "email": "liz@gmail.com",
         "password": "ilovewine",
-        "profilePicture": "http://localhost:3000/images/cash.jpg",
+        "profilePicture": "https://white-rabbit-98r9i.ondigitalocean.app/images/cash.jpg",
         "isStaff": false
       },
       {
@@ -53,14 +53,14 @@
         "fullName": "Emily Dooling",
         "email": "emily@gmail.com",
         "password": "ilovewine",
-        "profilePicture": "http://localhost:3000/images/karl.jpeg",
+        "profilePicture": "https://white-rabbit-98r9i.ondigitalocean.app/images/karl.jpeg",
         "id": 8
       },
       {
         "isStaff": false,
         "fullName": "Phi Filler",
         "email": "phi@gmail.com",
-        "profilePicture": "http://localhost:3000/images/poppymain.jpeg",
+        "profilePicture": "https://white-rabbit-98r9i.ondigitalocean.app/images/poppymain.jpeg",
         "password": "ilovewine",
         "id": 9
       }
